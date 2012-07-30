@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc>
+<web>MultiPageExport</web>
+<name>WebHome</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent>MultiPageExport.WebHome</parent>
+<creator>xwiki:XWiki.Admin</creator>
+<author>xwiki:XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+<creationDate>1238948828000</creationDate>
+<date>1255885550000</date>
+<contentUpdateDate>1255885550000</contentUpdateDate>
+<version>1.1</version>
+<title>Multi-Page Export</title>
+<template></template>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<attachment>
+<filename>exportbtt.png</filename>
+<filesize>3142</filesize>
+<author>xwiki:XWiki.Admin</author>
+<date>1239895473000</date>
+<version>1.1</version>
+<comment></comment>
+<content>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</content>
+</attachment>
+<object>
+<class>
+<name>XWiki.JavaScriptExtension</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<cache>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>cache</name>
+<number>5</number>
+<prettyName>Caching policy</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>long|short|default|forbid</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</cache>
+<code>
+<name>code</name>
+<number>2</number>
+<prettyName>Code</prettyName>
+<rows>20</rows>
+<size>50</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</code>
+<name>
+<name>name</name>
+<number>1</number>
+<prettyName>Name</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</name>
+<parse>
+<displayFormType>select</displayFormType>
+<displayType>yesno</displayType>
+<name>parse</name>
+<number>4</number>
+<prettyName>Parse content</prettyName>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</parse>
+<use>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>use</name>
+<number>3</number>
+<prettyName>Use this extension</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>onDemand=On demand|always=Always</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</use>
+</class>
+<name>MultiPageExport.WebHome</name>
+<number>0</number>
+<className>XWiki.JavaScriptExtension</className>
+<guid>6e68c253-335d-4710-a182-d7fe8940e43e</guid>
+<property>
+<cache>default</cache>
+</property>
+<property>
+<code>var currentList = "";
+var currentListTitle = "";
+
+Ajax.ExportRequest = Class.create(Ajax.Request, {
+    initialize: function($super, space, docName, options, action) {
+    this.transport = Ajax.getTransport();
+    if (action)
+      this.action = action;
+    else
+      this.action = "view";
+    this.baseUrl = "/xwiki/bin/" + this.action;
+
+    options = Object.clone(options);
+    var onComplete = options.onComplete || Prototype.emptyFunction;
+    options.onComplete = (function() {
+       this.returnValue(onComplete);
+    }).bind(this);
+
+    $super(this.generateUrl(space, docName), options);
+  },
+    generateUrl: function(space, docName){
+        return this.baseUrl + "/" + space + "/" + docName;
+  },
+  returnValue: function(callBack) {
+    if (callBack)
+        callBack(this);
+    else
+        alert("error, callback");
+  }
+});
+
+function searchPages(form) {
+  var pars = "input=" + escape(form.input.value) + "&amp;type=" + form.type.value +  "&amp;xpage=plain";
+  var myAjax = new Ajax.ExportRequest( "MultiPageExport", "SearchService", {method: 'get', parameters: pars, onComplete: showPageList } );
+}
+      
+function showPageList(res)
+{
+  var tableName = "listTable";
+  var tableEl = $(tableName);
+  if (tableEl)
+   Element.remove(tableName);
+  createTable(tableName, "export_searchresults_list");
+  var xml = res.transport.responseXML;
+  var docNodes = xml.getElementsByTagName("rs");
+  for (var i = 0; i &lt; docNodes.length; i++)
+  {
+    insertTableRow(tableName, docNodes[i].getAttribute("info"), docNodes[i].firstChild.data);
+  }
+}
+
+function createTable(id, parent) {
+    $(parent).innerHTML = "&lt;div&gt;&lt;table id=" + id + "&gt;&lt;/table&gt;&lt;/div&gt;";
+}
+
+function escapeForXML(origtext) {
+    return origtext.replace(/\&amp;/g,'&amp;'+'amp;').replace(/&lt;/g,'&amp;'+'lt;')
+        .replace(/&gt;/g,'&amp;'+'gt;').replace(/\'/g,'&amp;'+'apos;').replace(/\"/g,'&amp;'+'quot;');
+}
+
+
+function insertTableRow(id, name, displaytitle) {
+ new Insertion.Bottom(id, "&lt;tr&gt;&lt;td&gt;&lt;input type='checkbox' value='"+ escapeForXML(name) +"' id='check_" + escapeForXML(name) + "' class='checkedDoc' title='" + escapeForXML(displaytitle) + "' /&gt;&lt;/td&gt;&lt;td&gt;" + escapeForXML(displaytitle) + "&lt;/td&gt;&lt;td&gt;&lt;a href='javascript:void(0)' class='export_searchresult_preview' onclick='previewPage(\"" + escape(name) + "\"); return false;' title='preview'&gt;&amp;nbsp;&lt;/a&gt;&lt;td&gt;&lt;/tr&gt;");
+}
+
+
+function previewPage(name) {
+   var w = document.body.clientWidth - 300;
+   var h = document.body.clientHeight - 200;
+   var url = name.replace('.','/')
+   Modalbox.show('../' + url + '?xpage=print', {width:w,height: h, title: 'preview'}); 
+}
+
+function insertNewSelectedDoc(id, name, displaytitle) {
+ new Insertion.Bottom(id, "&lt;tr class='selCheckedTR' id='tr_" + escapeForXML(name) + "'&gt;&lt;td&gt;&lt;input type='checkBox' value='" + escapeForXML(name) + "' class='selCheckedDoc' id='" + escapeForXML(name) + "' /&gt;&lt;span id='" + escapeForXML(name) + "' class='exportDocName'&gt;" + escapeForXML(displaytitle) + "&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;");
+}
+
+function deleteDocs() {
+  var docs = document.getElementsByClassName("selCheckedDoc");
+  var i;
+  for (i = docs.length-1; i &gt;= 0; i--)
+  {
+     var doc = docs[i];
+     if (doc.checked)
+        Element.remove(doc.parentNode.parentNode);
+  }
+}
+
+function deleteAllDocs() {
+  var docs = document.getElementsByClassName("selCheckedDoc");
+  var i;
+  for (i = docs.length-1; i &gt;= 0; i--)
+  {
+     var doc = docs[i];
+     Element.remove(doc.parentNode.parentNode);
+  }
+}
+
+
+function addDocs() {
+  var docs = document.getElementsByClassName("checkedDoc");
+  var i;
+  for (i = 0; i &lt; docs.length; i++)
+  {
+    var doc = docs[i];
+    if ((doc.checked == true)&amp;&amp;!isInPageList(doc.value))
+      insertNewSelectedDoc("selectedDocsTable", doc.value, doc.title)
+  }
+}
+
+
+function selectItems(classId, selected)
+{
+  var docs = document.getElementsByClassName(classId);
+  var i;
+  for (i = 0; i &lt; docs.length; i++)
+  {
+    var doc = docs[i];
+    doc.checked = selected;
+  }
+}
+
+function getXmlValue(tag, xml)
+{
+  var nodes = xml.getElementsByTagName(tag);
+  if (nodes.length &gt; 0 &amp;&amp; nodes[0].firstChild)
+      return nodes[0].firstChild.data;
+  else
+      return "";    
+}
+
+// retrieves the current list of pages
+function isInPageList(page) {
+  var docs = document.getElementsByClassName("selCheckedDoc");
+  var i;
+  var pages = "";
+  for (i = 0; i &lt; docs.length; i++)
+  {
+    var doc = docs[i];
+    if (page==doc.value)
+     return true;
+  }
+  return false;
+}
+
+
+// retrieves the current list of pages
+function getPageList() {
+  var docs = document.getElementsByClassName("selCheckedDoc");
+  var i;
+  var pages = "";
+  for (i = 0; i &lt; docs.length; i++)
+  {
+    var doc = docs[i];
+    pages += "|" + doc.value;
+  }
+  return pages;
+}
+
+function exportPages(form) {
+  form.pdfpages.value = getPageList();
+  form.submit();
+}
+
+/*
+ * Saving a search list to an XWiki Document
+ */
+function saveList(form) {
+  $("savedexport_saveform").style.display = "block";
+  if (currentList!="") {
+   $("savedexport_saveform_saveas").style.display = "block";
+   if (currentListTitle!="") 
+    form.title.value = currentListTitle;
+   else
+    form.title.value = "";
+  }
+}
+  
+/*
+ * Saving a search list to an XWiki Document
+ */
+function saveListCancel(form) {
+  $("savedexport_saveform").style.display = "none";
+  $("savedexport_saveform_saveas").style.display = "none";
+}
+
+/*
+ * Saving a search list to an XWiki Document
+ */
+function saveListConfirm(form) {
+  $("savedexport_saveform").style.display = "none";
+  $("savedexport_saveform_saveas").style.display = "none";
+  var list = getPageList();
+  // save the list title for future usage
+  currentListTitle = form.title.value;
+  var pars = "title=" + escape(form.title.value) + "&amp;list=" + list +  "&amp;xpage=plain";
+  if ((currentList!="")&amp;&amp;(!form.createnew.checked))
+   pars += "&amp;page=" + currentList;
+  var myAjax = new Ajax.ExportRequest( "MultiPageExport", "SavedListSaveService", {method: 'post', parameters: pars, onComplete: saveListConfirmCallback } );
+}
+
+function saveListConfirmCallback(res) {
+   // we should check if the save happened properly and retrieve the page name
+   var xml = res.transport.responseXML;
+   var docNode = xml.getElementsByTagName("result")[0];
+   var page = docNode.firstChild.data;
+   currentList = page; 
+   refreshSavedLists();
+}
+
+function deleteSavedList(name, displaytitle, confirmmsg) {
+   if (confirm(confirmmsg)) {
+    var pars = "page=" + name +  "&amp;xpage=plain";
+    var myAjax = new Ajax.ExportRequest( "MultiPageExport", "SavedListDeleteService", {method: 'get', parameters: pars, onComplete: deleteSavedListCallback } );  
+   } 
+}
+
+function deleteSavedListCallback(res) {
+   refreshSavedLists();
+}
+
+
+function loadSavedList(name) {
+  deleteAllDocs();
+  var pars = "page=" + name +  "&amp;xpage=plain";
+  var myAjax = new Ajax.ExportRequest( "MultiPageExport", "SavedListGetService", {method: 'get', parameters: pars, onComplete: loadSavedListCallback } );  
+}
+
+function loadSavedListCallback(res) {
+  var xml = res.transport.responseXML;
+  var name = xml.getElementsByTagName("name")[0].firstChild.data;
+  var title = xml.getElementsByTagName("title")[0].firstChild.data;
+  var docNodes = xml.getElementsByTagName("page");
+  for (var i = 0; i &lt; docNodes.length; i++)
+  {
+    insertNewSelectedDoc("selectedDocsTable", docNodes[i].getAttribute("info"), docNodes[i].firstChild.data)
+  }
+ currentList = name;
+ currentListTitle = title; 
+}
+
+function refreshSavedLists() {
+  var pars = "&amp;xpage=plain";
+  var myAjax = new Ajax.ExportRequest( "MultiPageExport", "SavedListListService", {method: 'get', parameters: pars, onComplete: refreshSavedListsCallback } );    
+}
+
+function refreshSavedListsCallback(res) {
+  $("export_list_ul").innerHTML = res.transport.responseText;
+}
+
+function moveDocsUp() {
+  var docs = document.getElementsByClassName("selCheckedDoc");
+  var i;
+  var pages = "";
+  var previousdoc = "";
+  for (i = 0; i &lt; docs.length; i++)
+  {
+    var doc = docs[i];
+    if (doc.checked &amp;&amp; previousdoc!="") {
+      // we should exchange doc and previousdoc
+      var prevtrel = previousdoc.parentNode.parentNode;
+      var trel = doc.parentNode.parentNode;
+      var tableel = trel.parentNode; 
+      Element.remove(trel);
+      tableel.insertBefore(trel, prevtrel);
+    } else {
+      previousdoc = doc;
+    }
+  }
+}
+
+function moveDocsDown() {
+  var docs = document.getElementsByClassName("selCheckedDoc");
+  var i;
+  var pages = "";
+  var previousdoc = "";
+  for (i = docs.length - 1; i &gt;= 0; i--)
+  {
+    var doc = docs[i];
+    if (doc.checked &amp;&amp; previousdoc!="") {
+      // we should exchange doc and previousdoc
+      var prevtrel = previousdoc.parentNode.parentNode;
+      var trel = doc.parentNode.parentNode;
+      var tableel = trel.parentNode; 
+      Element.remove(prevtrel);
+      tableel.insertBefore(prevtrel, trel);
+    } else {
+      previousdoc = doc;
+    }
+  }
+}</code>
+</property>
+<property>
+<name>Export by Search</name>
+</property>
+<property>
+<parse>0</parse>
+</property>
+<property>
+<use>onDemand</use>
+</property>
+</object>
+<object>
+<class>
+<name>XWiki.StyleSheetExtension</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<cache>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>cache</name>
+<number>5</number>
+<prettyName>Caching policy</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>long|short|default|forbid</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</cache>
+<code>
+<name>code</name>
+<number>2</number>
+<prettyName>Code</prettyName>
+<rows>20</rows>
+<size>50</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</code>
+<name>
+<name>name</name>
+<number>1</number>
+<prettyName>Name</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</name>
+<parse>
+<displayFormType>select</displayFormType>
+<displayType>yesno</displayType>
+<name>parse</name>
+<number>4</number>
+<prettyName>Parse content</prettyName>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</parse>
+<use>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>use</name>
+<number>3</number>
+<prettyName>Use this extension</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>onDemand=On demand|always=Always</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</use>
+</class>
+<name>MultiPageExport.WebHome</name>
+<number>0</number>
+<className>XWiki.StyleSheetExtension</className>
+<guid>a4ae7d87-2b4f-474e-9097-21392fc299e0</guid>
+<property>
+<cache>default</cache>
+</property>
+<property>
+<code>/* @override http://emc.devxwiki.com/xwiki/bin/ssx/MultiPageExport/WebHome?language=en */
+
+
+
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/** MultiPageExport **/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+
+div#export_searchform {
+	padding: 10px 0 2px 0;
+	width: 50%;
+}
+div#export_searchform h2.hidden{
+	display: block !important;
+	margin:-0.75em 0 1em 0;
+}
+#export_searchform form input {
+margin-bottom: 0.5em;	
+}
+.export_rightcol h2.hidden{
+	display: block !important;
+	margin:-2em 0 1em 0;
+}
+div#export_searchform form{
+	margin-right: 60px;
+	padding: 10px ;
+	background-color: #eee;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+div#export_searchform form input.export_searchfield{
+	width: 90%
+}
+div#export_searchform form select{
+	vertical-align: top;
+        z-index: 1;
+}
+#export_searchresults{
+	position: relative;
+	min-height: 200px;
+}
+#export_searchresults ul,
+#export_searchresults li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#export_list_box {
+	float: left;
+	display: inline;
+	width: 170px;
+}
+ul#export_list_ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: disc;
+	color: #0086ff;
+}
+ul#export_list_ul {
+	padding: 3px 0;
+
+}
+div.export_container {
+	margin-left: 180px;
+}
+
+div.export_leftcol {
+	float: left;
+	display: inline;
+	width: 49.9%;
+	margin-bottom: 20px;
+}
+div.export_leftcol_inner{
+	padding: 0 60px 0 0;
+}
+div.export_rightcol {
+	float: left;
+	position: relative;
+	display: inline;
+	width: 49.9%;
+}
+div.export_rightcol_inner{
+	padding: 0px 60px 10px 0;
+}
+
+
+div#export_searchresults_list {
+        height: 420px;
+        border: 5px solid #eee;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	background: #eee url($doc.getAttachmentURL('exportbtt.png')) no-repeat 50% -575px;
+	}
+#export_searchresults_addremove {
+position: absolute;
+top: 50px;
+left: 50%;
+margin-left: -61px;
+width: 62px;
+height:  62px;
+padding: 10px 0;
+text-align: center;
+background: transparent url($doc.getAttachmentURL('exportbtt.png')) no-repeat -1px 0;
+}
+#export_list {
+        height: 420px;
+        border: 5px solid #eee;
+	border-radius:10px;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	background: #eee url($doc.getAttachmentURL('exportbtt.png')) no-repeat 50% -575px;
+}
+div#export_searchresults_list div,
+#export_list div{
+	padding: 10px;
+	height: 400px;
+	overflow-y: auto;
+        overflow-x: auto;
+}
+#xwikidatacontents {
+	clear: both;
+}
+#export_searchresults_updown {
+	position: absolute;
+	right: 0px;
+	top: 35px;
+	width: 62px;
+	height: 62px;
+	background: transparent url($doc.getAttachmentURL('exportbtt.png')) no-repeat 0 -100px;
+}
+#export_buttons {
+	position: absolute;
+	right: 0px;
+	top: 120px;
+	width: 62px;
+	height: 62px;
+	background: transparent url($doc.getAttachmentURL('exportbtt.png')) no-repeat 0 -100px;
+}
+
+/* tables */
+#export_list table,
+#export_searchresults #listTable {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0;
+}
+#export_list table td,
+#export_searchresults #listTable td{
+	background-color: #eee;
+	border: none;
+	border-bottom: 1px dashed #FFF;
+        white-space: pre-wrap; /* css-3 */
+        white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */
+        word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+
+/* buttons */
+input#bttDelete,
+input#bttAdd {
+	border: none;
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: bolder;
+	background: transparent url($doc.getAttachmentURL('exportbtt.png')) no-repeat  50% -250px;
+	width: 40px;
+	text-align: center;
+	padding: 1px 0 4px;
+	margin-top: 5px;
+}
+input#bttDelete:hover,
+input#bttAdd:hover{
+	background-position: 50% -218px;
+	color: #fff;
+}
+
+input#bttDelete{
+	margin-top: 4px;
+}
+#export_searchresults_updown li{
+	text-align: right;
+}
+input#bttMoveUp,
+input#bttMoveDown,
+input#bttSave,
+input#bttExport {
+	border: none;
+	border-left: 0px;
+	line-height: 18px;
+	font-size: 10px;
+	font-weight: bolder;
+	background: transparent url($doc.getAttachmentURL('exportbtt.png')) no-repeat  50% -310px;
+	padding: 1px 0 3px;
+	text-align: center;
+	width: 50px;
+	margin: 9px 6px 2px;
+}
+input#bttMoveUp:hover,
+input#bttMoveDown:hover,
+input#bttSave:hover,
+input#bttExport:hover{
+	background-position: 50% -280px;
+	color: #fff;
+} 
+
+input#bttMoveDown,
+input#bttExport{
+	margin-top: 5px;
+}
+#savedexport_saveform {
+background-color:#EEE;
+display:block;
+font-size:1.2em;
+right: 0px;
+padding:10px 20px;
+position:absolute;
+text-align:left;
+top:0;
+width:250px;
+border: 2px solid #888;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+}
+input#bttConfirm,
+input#bttCancel {
+	border: none;
+	border-left: 0px;
+	line-height: 18px;
+	font-size: 10px;
+	font-weight: bolder;
+	background: transparent url($doc.getAttachmentURL('exportbtt.png')) no-repeat  50% -430px;
+	padding: 1px 0 3px;
+	text-align: center;
+	width: 62px;
+	margin: 0 6px 0 0;
+}
+input#bttConfirm:hover,
+input#bttCancel:hover{
+	background-position: 50% -400px;
+        color: #fff;
+}
+#savedexport_saveform_saveas {
+	margin: 0.5em 0;
+}
+#savedexport_saveform input[type=text] {
+	width: 100%;
+	margin: 0.5em 0;
+}
+#export_list_ul li{
+	padding: 1px 20px 1px 0;
+	border-bottom: 1px solid #eee;
+        position:relative;
+}
+#export_list_ul li a.export_list_delete {
+	position:absolute;
+        right:0px;
+	width: 10px;
+	height: 10px;
+	margin-top: 2px;
+	background: #fff url($doc.getAttachmentURL('exportbtt.png')) no-repeat 50% -480px;
+}
+#export_searchresults #listTable td a.export_searchresult_preview{
+        line-height:12px;
+        padding-left: 15px;
+	background:transparent url($doc.getAttachmentURL('exportbtt.png')) no-repeat -20px -500px;
+}
+
+</code></property><property><name></name></property><property><parse>1</parse>
+</property>
+<property>
+<use>onDemand</use>
+</property>
+</object>
+<object>
+<class>
+<name>XWiki.TagClass</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<tags>
+<cache>0</cache>
+<displayType>checkbox</displayType>
+<multiSelect>1</multiSelect>
+<name>tags</name>
+<number>1</number>
+<prettyName>Tags</prettyName>
+<relationalStorage>1</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<values></values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</tags>
+</class>
+<name>MultiPageExport.WebHome</name>
+<number>0</number>
+<className>XWiki.TagClass</className>
+<guid>2253d7a6-b9b3-40ee-8ebf-ecb20193d64a</guid>
+<property>
+<tags/>
+</property>
+</object>
+<content>{{velocity}}
+#if($request.page)
+{{html clean=false}}
+$xwiki.getDocument($request.page).getRenderedContent()
+{{/html}}
+#else
+#set($class = "XWiki.SavedListClass")
+= $msg.export_selectpages =
+
+$msg.export_selectpages_invitation
+
+#set($ok = $xwiki.jsfx.use("js/scriptaculous/scriptaculous.js"))
+#set($ok = $xwiki.jsx.use("XWiki.ModalBox"))
+#set($ok = $xwiki.ssx.use("XWiki.ModalBox"))
+#set($ok = $xwiki.jsx.use($doc.fullName))
+#set($ok = $xwiki.ssx.use($doc.fullName))
+{{html wiki=false}}
+&lt;div id="export_list_box"&gt;
+&lt;h2&gt;$msg.export_savedlist&lt;/h2&gt;
+&lt;ul id="export_list_ul"&gt;
+#set($mpexport = $xwiki.collection)
+#foreach($item in $xwiki.searchDocuments(",BaseObject as obj where doc.fullName=obj.name and obj.className='$class' order by doc.date desc"))
+ #set($itemdoc = $xwiki.getDocument($item))
+ #set($ok = $itemdoc.use($class))
+ #set($jsitem = $mpexport.escapeForJS($item))
+ #set($list = $mpexport.escapeForJS($itemdoc.getValue("list")))
+ #set($title = $mpexport.escapeForJS($itemdoc.getDisplayTitle()))
+ #set($confirmmsg = $mpexport.escapeForJS($msg.get("export_savedlist_confirmdelete", [ $itemdoc.getDisplayTitle() ])))
+ &lt;li&gt;&lt;a href="javascript:void(0)" title="delete" onclick="deleteSavedList('$jsitem', '$title', '$confirmmsg'); return false;" class="export_list_delete"&gt;&amp;nbsp;&lt;/a&gt;&lt;a href="javascript:void(0)" onclick="loadSavedList('$jsitem', '$title', '$list'); return false;" &gt;$itemdoc.getDisplayTitle()&lt;/a&gt;&lt;/li&gt;
+#end
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="export_container"&gt;
+&lt;div id="export_searchform"&gt;
+&lt;h2 class="hidden"&gt;Search pages&lt;/h2&gt;
+ &lt;form action="javascript:void(0)" onsubmit="searchPages(this); return false;" method="post"&gt;
+  &lt;input type="text" name="input" size="20" value="" class="export_searchfield"/&gt;
+  &lt;select name="type"&gt;
+   &lt;option value="pagetitle"&gt;$msg.export_searchform_type_pagetitle&lt;/option&gt;
+   &lt;option value="pagename"&gt;$msg.export_searchform_type_pagename&lt;/option&gt;
+   &lt;option value="tags"&gt;$msg.export_searchform_type_tags&lt;/option&gt;
+   &lt;option value="pagecontent"&gt;$msg.export_searchform_type_pagecontent&lt;/option&gt;
+   &lt;option value="pagespace"&gt;$msg.export_searchform_type_pagespace&lt;/option&gt;
+  &lt;/select&gt; 
+  &lt;input type="button" value="$msg.export_searchform_search" onclick="searchPages(this.form); return false;" /&gt;
+ &lt;/form&gt;
+&lt;/div&gt;
+&lt;div id="export_searchresults"&gt;
+&lt;div class="export_leftcol"&gt;&lt;div class="export_leftcol_inner"&gt;
+ &lt;span class="selectDocsActions"&gt;$msg.export_searchform_select &lt;a onclick="selectItems('checkedDoc', false);" class="Exportlink"&gt;$msg.export_searchform_select_none&lt;/a&gt;, &lt;a onclick="selectItems('checkedDoc', true);" class="Exportlink"&gt;$msg.export_searchform_select_all&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;
+ &lt;div id="export_searchresults_list"&gt;
+ &lt;/div&gt;
+ &lt;div id="export_searchresults_addremove"&gt;
+&lt;div&gt;&lt;input type="button" onclick="addDocs();" id="bttAdd" value="&amp;gt;&amp;gt;"/&gt;&lt;/div&gt;
+&lt;div&gt;&lt;input type="button" onclick="deleteDocs();" id="bttDelete" value="&amp;lt;&amp;lt;"/&gt;&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="export_rightcol"&gt;&lt;div class="export_rightcol_inner"&gt;
+&lt;h2 class="hidden"&gt;Selected pages&lt;/h2&gt;
+ &lt;div id="export_list"&gt;
+  &lt;div&gt;
+  &lt;table&gt;
+   &lt;tbody  id="selectedDocsTable"&gt;
+   &lt;/tbody&gt;
+  &lt;/table&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div id="export_searchresults_updown"&gt;
+  &lt;div&gt;
+   &lt;input type="button" onclick="moveDocsUp();" id="bttMoveUp" value="$msg.export_searchform_up"/&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;input type="button" onclick="moveDocsDown();" id="bttMoveDown" value="$msg.export_searchform_down"/&gt;
+  &lt;/div&gt;
+ &lt;/div&gt; 
+ &lt;div id="export_buttons"&gt;
+  &lt;div&gt;
+   &lt;form name="save" method="post"&gt;
+    &lt;input type="button" onclick="saveList(form);" id="bttSave" value="$msg.export_savedexport_save"/&gt;
+    &lt;div id="savedexport_saveform" style="display: none"&gt;
+     $msg.export_savedexport_name : &lt;input type="text" name="title" value="$msg.export_savedexport_defaulttitle" /&gt;
+       &lt;div id="savedexport_saveform_saveas" style="display: none"&gt;
+        &lt;input type="checkbox" name="createnew" value="1" checked /&gt; $msg.export_savedexport_createnew
+       &lt;/div&gt;
+      &lt;input type="button" onclick="saveListCancel(form);" id="bttCancel" value="$msg.export_savedexport_cancel"/&gt;
+      &lt;input type="button" onclick="saveListConfirm(form);" id="bttConfirm" value="$msg.export_savedexport_confirm"/&gt;
+   &lt;/div&gt;
+  &lt;/form&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;form action="$xwiki.getURL("MultiPageExport.Export")" method="post"&gt;
+    &lt;input type="hidden" name="pdfpages" value="" /&gt;
+    &lt;input type="button" onclick="exportPages(this.form);" id="bttExport" value="$msg.export_searchform_export"/&gt;
+   &lt;/form&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt; 
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+{{/html}}
+#end
+{{/velocity}}</content>
+</xwikidoc>

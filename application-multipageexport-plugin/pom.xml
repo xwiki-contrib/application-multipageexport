@@ -26,34 +26,31 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.xwiki.commons</groupId>
-    <artifactId>xwiki-commons-pom</artifactId>
-    <version>4.1.3</version>
+    <groupId>org.xwiki.contrib</groupId>
+    <artifactId>application-multipageexport</artifactId>
+    <version>1.2-SNAPSHOT</version>
   </parent>
-  <groupId>org.xwiki.contrib</groupId>
-  <artifactId>application-multipageexport</artifactId>
-  <name>XWiki Contrib - Multipage Export Application</name>
-  <description>XWiki Contrib - Multipage Export Application</description>
+  <artifactId>application-multipageexport-plugin</artifactId>
+  <name>XWiki Contrib - Multipage Export Plugin</name>
+  <description>XWiki Contrib - Multipage Export Plugin</description>
   <version>1.2-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <properties>
-    <xwiki.enforcer.skip>true</xwiki.enforcer.skip>
-    <xwiki.platform.version>4.1.3</xwiki.platform.version>
-  </properties>
-  <scm>
-    <connection>scm:git:git://github.com/xwiki-contrib/application-multipageexport.git</connection>
-    <developerConnection>scm:git:git@github.com:xwiki-contrib/application-multipageexport.git</developerConnection>
-    <url>https://github.com/xwiki-contrib/application-multipageexport.git</url>
-  </scm>
-  <distributionManagement>
-    <repository>
-      <id>xwiki-staging</id>
-      <name>XWiki Staging Repository</name>
-      <url>http://nexus.xwiki.org/nexus/service/local/staging/deploy/maven2/</url>
-    </repository>
-  </distributionManagement>
-  <modules>
-    <module>application-multipageexport-plugin</module>
-    <module>application-multipageexport-xar</module>
-  </modules>
+  <dependencies>
+    <dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-legacy-oldcore</artifactId>
+      <version>${xwiki.platform.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-activitystream</artifactId>
+      <version>${xwiki.platform.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <scope>provided</scope>
+    </dependency> 
+  </dependencies>
 </project>

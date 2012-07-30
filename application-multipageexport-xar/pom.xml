@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.xwiki.contrib</groupId>
+    <artifactId>application-multipageexport</artifactId>
+    <version>1.2-SNAPSHOT</version>
+  </parent>
+  <artifactId>application-multipageexport-xar</artifactId>
+  <name>XWiki Contrib - Multipage Export XAR</name>
+  <description>XWiki Contrib - Multipage Export XAR</description>
+  <version>1.2-SNAPSHOT</version>
+  <packaging>xar</packaging>
+  <dependencies>
+    <!-- Adding batch import api as dependencies since these pages need the
+server in order to work properly and for EM to find them related. -->
+    <dependency>
+      <groupId>org.xwiki.contrib</groupId>
+      <artifactId>application-multipageexport-plugin</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.xwiki.commons</groupId>
+        <artifactId>xwiki-commons-tool-xar-handlers</artifactId>
+        <version>${xwiki.platform.version}</version>
+      </extension>
+    </extensions>
+    <plugins>
+      <plugin>
+        <groupId>org.xwiki.commons</groupId>
+        <artifactId>xwiki-commons-tool-xar-plugin</artifactId>
+        <version>${xwiki.platform.version}</version>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+

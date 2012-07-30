@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc>
+<web>MultiPageExport</web>
+<name>Translations</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent>MultiPageExport.WebHome</parent>
+<creator>xwiki:XWiki.Admin</creator>
+<author>xwiki:XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+<creationDate>1239052976000</creationDate>
+<date>1255885550000</date>
+<contentUpdateDate>1255885550000</contentUpdateDate>
+<version>1.1</version>
+<title>Translations</title>
+<template></template>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<object>
+<class>
+<name>XWiki.TagClass</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<tags>
+<cache>0</cache>
+<displayType>checkbox</displayType>
+<multiSelect>1</multiSelect>
+<name>tags</name>
+<number>1</number>
+<prettyName>Tags</prettyName>
+<relationalStorage>1</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<values></values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</tags>
+</class>
+<name>MultiPageExport.Translations</name>
+<number>0</number>
+<className>XWiki.TagClass</className>
+<guid>edf49019-90c8-49c7-aa17-31d26c492661</guid>
+<property>
+<tags/>
+</property>
+</object>
+<content>export_selectpages=Multi-Page Export
+export_selectpages_invitation=A search of all pages within the Wiki can be done by matching either the: page title, name, content, or associated tags. When the search is complete and the required content is located, the pages can be exported by selecting the corresponding check box and clicking the "&gt;&gt;" button.
+export_searchform_type_pagetitle=search page title
+export_searchform_type_pagename=search page name
+export_searchform_type_pagecontent=search page content
+export_searchform_type_pagespace=search space
+export_searchform_type_tags=search tag
+export_searchform_search=Search
+export_searchform_save=Save as an export list
+export_searchform_next=Next
+export_searchform_up=Up
+export_searchform_down=Down
+export_searchform_export=Export
+export_searchform_select=Select
+export_searchform_select_none=none
+export_searchform_select_all=all
+export_savedlist=Saved lists
+export_savedlist_confirmdelete=Please confirm deleting saved list "{0}"
+export_savedexport_save=Save
+export_savedexport_cancel=Cancel
+export_savedexport_confirm=Confirm
+export_savedexport_name=List Name
+export_savedexport_defaulttitle=
+export_savedexport_createnew=Create new list
+export_exportorprint_HTML=HTML
+export_exportorprint_PDF=PDF
+export_exportorprint_RTF=RTF
+export_exportorprint_XARWITHVERSIONS=XAR with versions
+export_exportorprint_XARWITHOUTVERSIONS=XAR without versions
+export_exportorprint_packagename=Package Name
+export_exportorprint_button_export=Export
+export_exportorprint_button_next=Next
+export_exportorprint_title=Export or Print pages
+export_exportorprint_description=The following pages can be exported to PDF or RTF format</content>
+</xwikidoc>
