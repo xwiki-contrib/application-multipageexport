@@ -33,7 +33,6 @@
   <artifactId>application-multipageexport-plugin</artifactId>
   <name>XWiki Contrib - Multipage Export Plugin</name>
   <description>XWiki Contrib - Multipage Export Plugin</description>
-  <version>1.2-SNAPSHOT</version>
   <dependencies>
     <dependency>
       <groupId>org.xwiki.platform</groupId>

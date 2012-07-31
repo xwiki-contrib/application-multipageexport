@@ -8,11 +8,10 @@
   <artifactId>application-multipageexport-xar</artifactId>
   <name>XWiki Contrib - Multipage Export XAR</name>
   <description>XWiki Contrib - Multipage Export XAR</description>
-  <version>1.2-SNAPSHOT</version>
   <packaging>xar</packaging>
   <dependencies>
-    <!-- Adding batch import api as dependencies since these pages need the
-server in order to work properly and for EM to find them related. -->
+    <!-- Adding plugin as dependency since these pages need the plugin 
+         in order to work properly and for EM to find them related. -->
     <dependency>
       <groupId>org.xwiki.contrib</groupId>
       <artifactId>application-multipageexport-plugin</artifactId>
