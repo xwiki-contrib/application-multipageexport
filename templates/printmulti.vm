@@ -1,0 +1,20 @@
+## Don't display panels in print view
+#set($showLeftPanels = "0")
+#set($showRightPanels = "0")
+#set($isInServletMode = 1)
+## Set a flag stating we're in print view so that we can use the print.css CSS in stylesheet.vm
+#set($printss = true)
+#template("startpage.vm")
+<div class="minwidthb"></div>
+<div class="main layoutsubsection">
+<div id="xwikicontent">
+$xwiki.includeForm("MultiPageExport.ExportSheet2",false)
+</div>
+## -----------------------------------------------------------------------------------
+## Display the footnotes if the document is in 1.0 syntax and if there are any defined
+## -----------------------------------------------------------------------------------
+#set($footnotes = "#putFootnotes()")
+$xwiki.renderText($footnotes, $doc)
+<div class="clearfloats"></div>
+</div>## main
+#template("endpage.vm")

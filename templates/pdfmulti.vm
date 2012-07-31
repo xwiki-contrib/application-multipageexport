@@ -1,0 +1,15 @@
+#template("xwikivars.vm")
+#if($request.page)
+#set($pdfdoc = $xwiki.getDocument($request.page))
+#else
+#set($pdfdoc = $xwiki.getDocument("MultiPageExport.Export"))
+#end
+#set($ok = $pdfdoc.use("XWiki.PDFClass"))
+#template("pdfhtmlheader.vm")
+<div id="xwikicontent">
+$content
+</div>
+</div>
+</div>
+</body>
+</html>
