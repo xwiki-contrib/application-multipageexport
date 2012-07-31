@@ -87,7 +87,7 @@ public class CollectionPluginApi extends Api
      */
     public String getRenderedContentWithLinks(String documentName, List<String> selectlist)
     {
-        return getRenderedContentWithLinks(documentName, null, false);
+        return getRenderedContentWithLinks(documentName, selectlist, false);
     }
 
     /**

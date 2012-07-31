@@ -350,7 +350,8 @@ public class CollectionPlugin extends XWikiDefaultPlugin implements XWikiPluginI
         if (doc == null) {
             addDebug("No main document passed");
             if ((selectlist == null) || (selectlist.size() < 1)) {
-                return "";
+                addDebug("No select list passed. Exit.");
+                return "No main document passed";
             }
             String childDocName = selectlist.get(0);
             if (childDocName.equals("")) {
